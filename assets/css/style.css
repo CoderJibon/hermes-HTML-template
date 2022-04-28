@@ -1,0 +1,133 @@
+/*
+*   Template Name : Hermes website
+*   Author : Scraft Studio
+*   Author uri : http://scraft.studio/
+*   Developer name : jibon roy
+*   Developer uri : https://coderjibon.web.app/
+*   Version : 1.1.1
+*/
+
+/* color panel control */
+:root {
+  --coder-blue: #407bff;
+  --coder-font: "Inter", sans-serif;
+}
+
+/* Utility */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--coder-font);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.codercontainer {
+  max-width: 1300px;
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+img {
+  max-width: 100%;
+}
+h2 {
+  font-family: var(--coder-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 43px;
+  line-height: 55px;
+  color: var(--coder-blue);
+}
+p {
+  font-family: var(--coder-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+  font-family: var(--coder-font);
+}
+.customBtn {
+  background: var(--coder-blue);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #ffffff;
+  padding: 10px 15px;
+}
+/* Header area 1 call */
+ul.navbar-nav {
+  margin-left: auto;
+}
+header#header {
+  padding: 15px 0;
+}
+header#header ul li a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+a.navbar-brand {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 31px;
+  line-height: 38px;
+  color: #000000;
+}
+
+/* home section 1 call */
+.sectin1left .customBtn {
+  margin-top: 20px;
+}
+section#homepagesection1 h2 {
+  color: #000;
+}
+section#homepagesection1 {
+  padding: 100px 0;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header#header {
+  background-color: #f8faff;
+}
+
+/* home section 2 call */
+.homeSection2right p {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.homeSection2right {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+/* Our Services section */
+section#OurServices {
+  padding: 50px 0;
+}
+.topHeading {
+  text-align: center;
+}
+.topHeading p {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
