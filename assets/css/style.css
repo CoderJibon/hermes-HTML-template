@@ -82,6 +82,7 @@ header#header ul li a {
   font-size: 25px;
   line-height: 30px;
   color: #000000;
+  padding: 10px 10px;
 }
 a.navbar-brand {
   font-family: "Inter";
@@ -123,6 +124,7 @@ header#header {
 /* Our Services section */
 section#OurServices {
   padding: 50px 0;
+  background-color: #f8faff;
 }
 .topHeading {
   text-align: center;
@@ -130,4 +132,114 @@ section#OurServices {
 .topHeading p {
   margin-bottom: 30px;
   margin-top: 30px;
+}
+ul.ourBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 90px;
+}
+ul.ourBox {
+  margin-top: 20px;
+}
+ul.ourBox .card {
+  border: none;
+  overflow: hidden;
+}
+ul.ourBox .card-img-overlay {
+  top: 147px;
+  background-color: var(--bs-blue);
+}
+.blueBox h3 {
+  font-size: 24px;
+}
+img.card-img {
+  transition: 1s;
+}
+ul.ourBox li:hover img {
+  transform: scale(1.2);
+}
+
+/* Study Abroad area */
+section#StudayAbroad {
+  padding: 50px 0;
+}
+.slider-image img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  margin: auto;
+}
+.sliderItem p {
+  text-align: center;
+  margin-top: 24px;
+}
+
+section#StudayAbroad .slick-prev.slick-arrow {
+  width: 65px;
+  height: 65px;
+  background-color: var(--coder-blue);
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+}
+#coderprev {
+  left: -70px;
+}
+#coderprev,
+#codernext {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 40%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.slide_Content {
+  margin-top: 50px;
+}
+#codernext {
+  right: -70px;
+}
+.sliderarea {
+  width: 85%;
+  margin: auto;
+}
+
+/* our core area */
+section#ourCoreSection {
+  padding: 50px 0;
+  background-color: #f8faff;
+}
+h2.ourhad {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.ourCoreBox {
+  text-align: center;
+  margin: auto;
+}
+.ourCoreBox h2 {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 128.02%;
+  color: #000000;
+}
+.ourCoreBox h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 135.52%;
+  color: #000000;
 }
