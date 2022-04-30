@@ -306,11 +306,3 @@ header.home {
 header.home a {
   color: #fff !important;
 }
-.homebannerslider {
-  height: 100vh !important;
-}
-.homebannerslider img {
-  height: 100%;
-  object-fit: cover;
-  width: 100%;
-}
