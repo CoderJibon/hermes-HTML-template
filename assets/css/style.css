@@ -88,7 +88,7 @@ a.navbar-brand {
   font-family: "Inter";
   font-style: normal;
   font-weight: 800;
-  font-size: 31px;
+  font-size: 26px;
   line-height: 38px;
   color: #000000;
 }
@@ -168,6 +168,7 @@ section#StudayAbroad {
   height: 220px;
   object-fit: cover;
   margin: auto;
+  border-radius: 50%;
 }
 .sliderItem p {
   text-align: center;
