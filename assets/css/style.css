@@ -295,3 +295,14 @@ button#bbb {
   border-radius: 26px;
   padding: 30px 57px;
 }
+
+/* home banner section area */
+header.home {
+  background-color: transparent !important;
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+}
+header.home a {
+  color: #fff !important;
+}
