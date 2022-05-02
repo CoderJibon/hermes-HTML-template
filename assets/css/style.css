@@ -136,7 +136,7 @@ section#OurServices {
 ul.ourBox {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 90px;
+  gap: 20px;
 }
 ul.ourBox {
   margin-top: 20px;
@@ -145,18 +145,17 @@ ul.ourBox .card {
   border: none;
   overflow: hidden;
 }
-ul.ourBox .card-img-overlay {
-  top: 147px;
-  background-color: var(--bs-blue);
+ul.ourBox .card {
+  background-color: transparent;
+  text-align: center;
 }
 .blueBox h3 {
   font-size: 23px;
 }
-img.card-img {
+ul.ourBox img.card-img {
   transition: 1s;
-}
-ul.ourBox li:hover img.card-img {
-  transform: scale(1.2);
+  padding: 5px;
+  border: 2px solid #000;
 }
 
 /* Study Abroad area */
@@ -305,4 +304,41 @@ header.home {
 }
 header.home a {
   color: #fff !important;
+}
+
+/* Featured Destinations */
+section#featuredDes .card {
+  border: none;
+}
+section#featuredDes .card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+section#featuredDes .card-body p {
+  font-size: 16px;
+  line-height: 24px;
+}
+section#featuredDes {
+  padding: 50px 0;
+}
+section#featuredDes h2 {
+  padding-bottom: 30px;
+}
+
+/* counter area  */
+.counterImage {
+  max-width: 100px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+section#counter {
+  text-align: center;
+  padding: 50px 0;
+}
+section#counter p {
+  font-size: 16px;
+}
+section#counter h3 {
+  margin-bottom: 0;
+  font-weight: 800;
 }
