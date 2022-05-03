@@ -299,6 +299,18 @@ button#bbb {
 }
 
 /* home banner section area */
+.sliderhovertext {
+  position: absolute;
+  left: 10%;
+  bottom: 20%;
+}
+.sliderhovertext h2,
+.sliderhovertext p {
+  color: #fff;
+}
+.homebannerslider {
+  position: relative;
+}
 header.home {
   background-color: transparent !important;
   z-index: 999;

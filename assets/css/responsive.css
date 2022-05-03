@@ -12,11 +12,41 @@
 }
 
 @media only screen and (max-width: 1280px) {
+  #homeSection2 {
+    padding-bottom: 50px;
+  }
   header#header ul li a {
     font-size: 18px;
   }
   a.navbar-brand {
     font-size: 20px;
+  }
+  #OurServices p br {
+    display: none;
+  }
+
+  .slider-image img {
+    width: 150px;
+    height: 150px;
+  }
+  section#StudayAbroad .slick-prev.slick-arrow {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    cursor: pointer;
+  }
+  #StudayAbroad p {
+    font-size: 20px;
+  }
+  #coderprev {
+    left: -40px;
+  }
+  #codernext {
+    right: -40px;
+  }
+  #coderprev img,
+  #codernext img {
+    max-width: 70%;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -38,13 +68,124 @@
   #header .navbar-brand.desk {
     color: #fff !important;
   }
+  #StudayAbroad {
+    text-align: center;
+  }
+  #StudayAbroad h2 {
+    font-size: 40px;
+  }
+  .sliderarea {
+    padding-top: 50px;
+  }
+  .formbox {
+    max-width: 98%;
+  }
 }
 
 @media only screen and (max-width: 900px) {
+  section.from2box {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media only screen and (max-width: 768px) {
+  .sliderhovertext p {
+    text-align: left;
+  }
+  #homeSlider img {
+    min-height: 375px;
+  }
+  .ourCoreBox h2 {
+    font-size: 40px;
+    line-height: 57.02%;
+  }
+  .ourCoreBox {
+    padding-bottom: 50px;
+  }
+  #StudayAbroad p {
+    font-size: 18px;
+  }
+
+  .ourCoreBox h3 {
+    font-size: 24px;
+    line-height: 135.52%;
+    color: #000000;
+  }
+  #StudayAbroad h2 {
+    font-size: 24px;
+  }
+  #featuredDes h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  #counter {
+    padding: 0 !important;
+  }
+  #homepagesection1 {
+    padding: 50px 0 !important;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: initial;
+    text-align: center;
+  }
+  h2 br {
+    display: none;
+  }
+  p {
+    font-size: 16px;
+    line-height: inherit;
+    text-align: center;
+  }
+  #homepagesection1 {
+    padding-bottom: 0 !important;
+    text-align: center;
+  }
+  #homeSection2 {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .sectin1right {
+    text-align: center;
+  }
+  .blueBox h3 {
+    font-size: 18px;
+  }
+  ul.ourBox {
+    grid-template-columns: 1fr 1fr;
+  }
+  #OurServices p br {
+    display: none;
+  }
+  .conterBox {
+    padding-bottom: 30px;
+  }
+  #featuredDes h3 {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 480px) {
+  .sliderhovertext {
+    text-align: center;
+  }
+  .sliderhovertext p {
+    text-align: center;
+  }
+  .customBtn {
+    font-size: 20px;
+  }
+  ul.ourBox {
+    grid-template-columns: 1fr;
+  }
+  .sliderarea {
+    max-width: 70%;
+    margin: auto;
+  }
+  .fromarea {
+    padding: 50px 15px;
+  }
+  .customBtn.submit {
+    font-size: 20px;
+  }
 }
