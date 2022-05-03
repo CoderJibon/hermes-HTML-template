@@ -122,6 +122,9 @@ header#header {
 }
 
 /* Our Services section */
+section#OurServices h2 {
+  color: #000;
+}
 section#OurServices {
   padding: 50px 0;
   background-color: #f8faff;
@@ -341,4 +344,49 @@ section#counter p {
 section#counter h3 {
   margin-bottom: 0;
   font-weight: 800;
+}
+
+/* book from 2 area */
+section.from2box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+}
+.fromleftBox img {
+  width: 100%;
+  max-width: 100%;
+}
+.fromarea input.default,
+.fromarea select {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  font-size: 17px;
+  padding: 5px 5px;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding-left: 0;
+  outline: none;
+  background: #fff;
+}
+
+.fromarea {
+  padding: 50px 40px;
+}
+section.from2box p {
+  font-size: 16px;
+}
+section.from2box .form-check {
+  margin-bottom: 20px;
+}
+input.customBtn.submit {
+  margin-top: 20px;
+  border: none;
+}
+.formsubmit {
+  text-align: right;
+}
+.fromleftBox img {
+  height: 100%;
+  object-fit: cover;
 }
