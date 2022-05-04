@@ -176,7 +176,10 @@ section#StudayAbroad {
   text-align: center;
   margin-top: 24px;
 }
-
+section#homeSlider a.customBtn {
+  background-color: transparent;
+  border: 3px solid #000;
+}
 section#StudayAbroad .slick-prev.slick-arrow {
   width: 65px;
   height: 65px;
