@@ -374,6 +374,11 @@ section.from2box {
 .fromleftBox img {
   width: 100%;
   max-width: 100%;
+  max-height: 1100px;
+}
+#OurServices {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .fromarea input.default,
 .fromarea select {
