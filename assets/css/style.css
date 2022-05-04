@@ -304,6 +304,9 @@ button#bbb {
   left: 10%;
   bottom: 20%;
 }
+.sliderhovertext p {
+  padding: 10px 0;
+}
 .sliderhovertext h2,
 .sliderhovertext p {
   color: #fff;
@@ -338,6 +341,7 @@ section#featuredDes {
 }
 section#featuredDes h2 {
   padding-bottom: 30px;
+  color: #000;
 }
 
 /* counter area  */

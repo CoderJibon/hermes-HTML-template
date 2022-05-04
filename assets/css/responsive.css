@@ -1,4 +1,15 @@
 @media only screen and (min-width: 1300px) {
+  .sliderhovertext {
+    position: absolute;
+    left: 15%;
+    bottom: 30%;
+  }
+  .sliderhovertext h2 {
+    font-size: 48px;
+  }
+  .sliderhovertext p {
+    font-size: 36px;
+  }
   .homebannerslider {
     height: 100vh !important;
   }
