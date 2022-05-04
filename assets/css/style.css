@@ -154,6 +154,7 @@ ul.ourBox .card {
 }
 .blueBox h3 {
   font-size: 23px;
+  color: #fff;
 }
 ul.ourBox img.card-img {
   transition: 1s;

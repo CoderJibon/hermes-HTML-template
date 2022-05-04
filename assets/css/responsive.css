@@ -1,3 +1,15 @@
+@media only screen and (min-width: 1500px) {
+  .fromarea input.default,
+  .fromarea select {
+    font-size: 24px;
+  }
+  section.from2box label {
+    font-size: 20px;
+  }
+  section.from2box p {
+    font-size: 24px;
+  }
+}
 @media only screen and (min-width: 1300px) {
   .sliderhovertext {
     position: absolute;
