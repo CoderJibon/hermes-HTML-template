@@ -156,6 +156,9 @@ ul.ourBox .card {
   font-size: 23px;
   color: #fff;
 }
+a.navbar-brand img {
+  max-width: 200px;
+}
 ul.ourBox img.card-img {
   transition: 1s;
   padding: 5px;
