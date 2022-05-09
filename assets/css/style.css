@@ -418,3 +418,36 @@ input.customBtn.submit {
   height: 100%;
   object-fit: cover;
 }
+
+/* footer section area */
+footer#footer {
+  background: #1d202c;
+  padding-top: 50px;
+}
+footer#footer h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+footer#footer ul li a {
+  color: #a6aab6;
+  font-size: 18px;
+  margin: 7px 0;
+}
+.footerbutton {
+  background: #000;
+  padding: 15px 0;
+  margin-top: 50px;
+}
+.footerbutton p {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.footerbutton ul li {
+  display: inline;
+  margin-right: 10px;
+}
+.footerbutton ul {
+  text-align: right;
+  margin-bottom: 0;
+}
